@@ -1,0 +1,21 @@
+So, as you all know I am building this application to explore voice part and use my knowledge on llms to build a production level application.
+As a first step I want to start with very very simple any easy website. Because, I had a very shit habbit of srtat building applications considering all edges cases and leave it in middle.
+Now, I want to build this at any cost. Lets start with simple website, which will make this process easy and hoefully will be able to complete whole flow and gain some motivation to extend the funtionalities.
+
+Lets start with Simple Intial flow of this application (No fancy and prod level stuff):
+1. User comes to website and login successfully.
+2. Voice assistant is activated.
+3. There will a form, where user have to give details.
+4. Users gives information and the AI should fill details given by user in the suitable categories. 
+5. once all the fields are not, user can command submit. And the form will be submitted.
+
+Lets discuss about simple intial architecture of this application:
+1. Voice assistant activated.
+2. User give details --> Goes to llm --> LLM extract and assigns information to suitable category
+3. LLM send key value pairs where keys are categories in the fomr, and assigned their assigned values which are extracted by human conversation.
+4. These key value pairs are used to fill the form. As of now what I can think is I will be having access to the html code, we can do webscrapping and fill the values.
+4. Step-2 and 3 and 4 continues until all the categories in forms are filled.
+
+
+FIRST SIMPLE WEBSITE:
+Which will only have form filling.
